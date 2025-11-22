@@ -41,7 +41,7 @@ h1 {
     border-radius: 4px;
     cursor: pointer;
     text-transform: uppercase;
-    transition: opacity 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 #start {
