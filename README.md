@@ -1,36 +1,47 @@
-# Javascript-Projects
+# Javascript Projects
 
-This repository contains several projects I created while learning and improving my JavaScript skills.
-Each project focuses on different concepts such as functions, DOM operations, event handling, API usage, and many more.
+Welcome to my JavaScript mini-project collection.
+This repository showcases practical projects I built to improve real frontend skills with clean, readable code.
 
-## 🚀 Purpose
-- Strengthen core JavaScript knowledge
-- Practice DOM and event handling
-- Build small functional applications
-- Improve problem-solving skills
-- Develop cleaner and more structured code
+## Why This Repository
 
-## 📌 What's Inside
-The projects in this repository cover topics such as:
+- Practice core JavaScript concepts in real scenarios
+- Build stronger DOM and event-handling skills
+- Improve UI thinking and interaction design
+- Create a portfolio of small but useful web apps
 
-- Variables & Operators
-- Functions
-- Conditions & Loops
-- Arrays & Objects
-- DOM Manipulation
-- Event Listeners
-- LocalStorage usage
-- Fetching APIs
+## Featured Projects
 
-## 🛠 Technologies Used
+- **Background Video**  
+  A simple media control interface with play and pause actions.
+
+- **Form Value**  
+  A dynamic form experience that captures and displays submitted data.
+
+- **New Year Countdown**  
+  A live countdown app based on date and time calculations.
+
+- **Pomodoro Time**  
+  A focus timer that helps manage work sessions effectively.
+
+## Homepage Navigation
+
+The root `index.html` works as a central landing page for all projects.
+From the homepage, you can open each project directly from a dedicated card.
+
+## Tech Stack
+
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- Vanilla JavaScript
 
-## 📂 Project Structure
-Each project is placed inside its own folder with all necessary files included.  
-The code is kept clean, simple, and easy to follow.
+## Run Locally
 
----
+1. Clone the repository
+2. Open `index.html` from the root folder
+3. Click any project card to explore the apps
 
-This repository will continue to grow and improve over time. ✨
+## Author
+
+Qafar Qəmbərzadə  
+GitHub: https://github.com/qafaraz
