@@ -36,6 +36,9 @@ This repository showcases practical projects I built to improve real frontend sk
 - **Mouse Event**  
   Track mouse events and pointer position in an interactive area.
 
+- **To Do List**  
+  Add, complete, and delete tasks while keeping data in localStorage.
+
 ## Homepage Navigation
 
 The root `index.html` works as a central landing page for all projects.

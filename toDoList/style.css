@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #0f172a;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.todo-app {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 28px 22px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #dbe2ea;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 34px;
+    color: #0f172a;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 11px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+    color: #0f172a;
+    outline: none;
+}
+
+.todo-form button {
+    border: none;
+    border-radius: 8px;
+    padding: 11px 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.todo-form button:hover {
+    background-color: #1d4ed8;
+}
+
+#todoList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #dbe2ea;
+    background-color: #f8fafc;
+}
+
+.todo-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    opacity: 0.55;
+    color: #64748b;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.complete-btn {
+    background-color: #22c55e;
+    color: #052e16;
+}
+
+.delete-btn {
+    background-color: #ef4444;
+    color: #fee2e2;
+}
