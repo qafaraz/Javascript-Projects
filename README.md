@@ -33,6 +33,9 @@ This repository showcases practical projects I built to improve real frontend sk
 - **Random Emoji**  
   Display a random emoji on each button click.
 
+- **Mouse Event**  
+  Track mouse events and pointer position in an interactive area.
+
 ## Homepage Navigation
 
 The root `index.html` works as a central landing page for all projects.
