@@ -30,6 +30,9 @@ This repository showcases practical projects I built to improve real frontend sk
 - **Random Color Generator**  
   Generate random hex colors and apply them to the page background.
 
+- **Random Emoji**  
+  Display a random emoji on each button click.
+
 ## Homepage Navigation
 
 The root `index.html` works as a central landing page for all projects.
