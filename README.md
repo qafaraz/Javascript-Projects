@@ -24,6 +24,9 @@ This repository showcases practical projects I built to improve real frontend sk
 - **Pomodoro Time**  
   A focus timer that helps manage work sessions effectively.
 
+- **Dice Roll Simulator**  
+  A beginner-friendly dice app with animation and roll history.
+
 ## Homepage Navigation
 
 The root `index.html` works as a central landing page for all projects.

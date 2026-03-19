@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        radial-gradient(circle at 15% 20%, #f9a8d4 0%, transparent 30%),
+        radial-gradient(circle at 85% 25%, #a5b4fc 0%, transparent 35%),
+        linear-gradient(180deg, #1f1147, #2b185f 45%, #1e1b4b);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f7ff;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+}
+
+.dice-app {
+    max-width: 420px;
+    margin: 0 auto;
+    background: linear-gradient(165deg, rgba(35, 22, 78, 0.92), rgba(49, 28, 104, 0.94));
+    border: 1px solid rgba(216, 180, 254, 0.35);
+    border-radius: 18px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 18px 36px rgba(20, 9, 43, 0.5);
+}
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #fdf4ff;
+    letter-spacing: 0.3px;
+}
+
+.dice {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 20px;
+    background: linear-gradient(180deg, #ffffff, #f3e8ff);
+    color: #4c1d95;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    font-weight: 700;
+    box-shadow: 0 14px 28px rgba(17, 9, 34, 0.45);
+}
+
+.dice.roll {
+    animation: spin 0.45s ease;
+}
+
+button {
+    border: none;
+    padding: 11px 18px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #f472b6, #c084fc);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ec4899, #a855f7);
+    transform: translateY(-1px);
+}
+
+h2 {
+    margin-top: 22px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: #f5d0fe;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 245px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+li {
+    min-height: 41px;
+    display: flex;
+    align-items: center;
+    background: rgba(91, 33, 182, 0.3);
+    border: 1px solid rgba(216, 180, 254, 0.35);
+    border-radius: 10px;
+    padding: 9px 12px;
+    text-align: left;
+    color: #f3e8ff;
+}
+
+ul::-webkit-scrollbar {
+    width: 8px;
+}
+
+ul::-webkit-scrollbar-track {
+    background: rgba(30, 20, 66, 0.55);
+    border-radius: 999px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background: rgba(232, 121, 249, 0.8);
+    border-radius: 999px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(15deg) scale(1.06);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
