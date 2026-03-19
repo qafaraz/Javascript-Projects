@@ -27,6 +27,9 @@ This repository showcases practical projects I built to improve real frontend sk
 - **Dice Roll Simulator**  
   A beginner-friendly dice app with animation and roll history.
 
+- **Random Color Generator**  
+  Generate random hex colors and apply them to the page background.
+
 ## Homepage Navigation
 
 The root `index.html` works as a central landing page for all projects.
